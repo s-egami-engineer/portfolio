@@ -1,0 +1,94 @@
+@media screen and (min-width: 575px) {
+  header ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  .menu-button {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .main-content .main-box h1 {
+    font-size: 85px;
+  }
+  .main-content .main-box p {
+    font-size: 25px;
+    padding: 5px 20px;
+  }
+  #about h2 {
+    font-size: 60px;
+    letter-spacing: 3px;
+    margin-bottom: 50px;
+  }
+  #about img {
+    width: 100%;
+    max-width: 450px;
+  }
+  #about .introduction {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  #about .introduction p {
+    font-size: 22px;
+    margin-bottom: 30px;
+  }
+  #about .introduction .icon i {
+    font-size: 4em;
+  }
+  #skill h2 {
+    font-size: 60px;
+    letter-spacing: 3px;
+    margin-bottom: 50px;
+  }
+  #service h2 {
+    font-size: 60px;
+    letter-spacing: 3px;
+    margin-bottom: 50px;
+  }
+  #service .service-box a i {
+    font-size: 5em;
+  }
+  #service .service-box a h3 {
+    font-size: 28px;
+    margin-bottom: 13px;
+  }
+  #service .service-box a p {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  #portfolio h2 {
+    font-size: 60px;
+    letter-spacing: 3px;
+    margin-bottom: 50px;
+  }
+  #contact h2 {
+    font-size: 60px;
+    letter-spacing: 3px;
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (min-width: 991px) {
+  #skill .skill-box {
+    max-width: 300px;
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (min-width: 1199px) {
+  .main-content .main-box h1 {
+    font-size: 100px;
+    margin-bottom: 35px;
+  }
+  .main-content .main-box p {
+    font-size: 30px;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */
